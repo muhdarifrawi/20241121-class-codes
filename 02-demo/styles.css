@@ -1,0 +1,27 @@
+/* @ --> at-rules */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    h1{
+        display:none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: blue;
+    }
+    h1{
+        display: block;
+    }
+}
+@media only screen and (min-width: 750px) {
+    body {
+        background-color: violet;
+    }
+}
+@media only screen and (min-width: 850px) {
+    body {
+        background-color: purple;
+    }
+}
